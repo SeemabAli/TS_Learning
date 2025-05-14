@@ -1,1 +1,13 @@
 "use strict";
+let myName;
+myName = "John Doe";
+let myAge;
+myAge = 30;
+let myIsStudent;
+myIsStudent = false;
+let album;
+album = "The Dark Side of the Moon";
+console.log(myName);
+console.log(myAge);
+console.log(myIsStudent);
+console.log(album);
