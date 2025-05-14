@@ -11,3 +11,15 @@ console.log(myName);
 console.log(myAge);
 console.log(myIsStudent);
 console.log(album);
+const sum = (a, b) => {
+    return a + b;
+};
+let result = sum(5, 10);
+console.log(result);
+let postId;
+postId = 123;
+let isActive;
+isActive = "yes";
+isActive = true;
+isActive = 1;
+let re = /\w+/g;
