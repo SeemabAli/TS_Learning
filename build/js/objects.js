@@ -37,3 +37,18 @@ const greetPerson = (person) => {
     return `Hello ${person.name}, you are ${person.age} years old and you are ${person.isStudent ? "a student" : "not a student"}`;
 };
 console.log(greetPerson(person));
+//ENUMS
+var Grade;
+(function (Grade) {
+    Grade["A"] = "1";
+    Grade["B"] = "2";
+    Grade["C"] = "3";
+    Grade["D"] = "4";
+    Grade["F"] = "5";
+})(Grade || (Grade = {}));
+let student = {
+    name: "John",
+    age: 30,
+    grade: Grade.A,
+};
+console.log(student);
